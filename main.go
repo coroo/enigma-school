@@ -68,6 +68,7 @@ func SubMainMenuForm(main menuChoosed) {
 		subAppMenu["D"] = "Hapus mahasiswa"
 		subAppMenu["q"] = "Back to Main Menu"
 	} else if main == "03" {
+		menuName = "Penempatan Mahasiswa"
 		subAppMenu["A"] = "Penempatan mahasiswa"
 		subAppMenu["B"] = "Lihat penempatan mahasiswa"
 		subAppMenu["C"] = "Hapus penempatan mahasiswa"
